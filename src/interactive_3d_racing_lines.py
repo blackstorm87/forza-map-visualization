@@ -13,7 +13,7 @@ import glob
 # https://plotly.com/python/animations/
 
 # path to folder containing the racing line files
-folder_path = '../data/*csv'
+folder_path = '../data/ifca-sonomaraceway.csv'
 
 # set the chart bounds
 # these values should typically be ~10% bigger than the bounds of the paths you are drawing
@@ -22,9 +22,9 @@ folder_path = '../data/*csv'
 # y: -550, 550
 # x: -5.5, 5.5
 map_bounds = dict(
-        xaxis=dict(range=[-13000,10000]),
-        yaxis=dict(range=[-13000,10000]),
-        zaxis=dict(range=[-13000,10000])
+        xaxis=dict(range=[-800,800]),
+        yaxis=dict(range=[-800,800]),
+        zaxis=dict(range=[-800,800])
 )
 
 # create and offset the racing line
